@@ -1,0 +1,7 @@
+.vinculo{
+    @apply hover:bg-gray-300 flex items-center px-4 h-xl
+}
+
+.texto{
+    @apply ml-2 text-sm font-semibold text-gray-900;
+}

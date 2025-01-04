@@ -1,0 +1,19 @@
+.header{
+    @apply flex items-center pl-4;
+}
+
+.imagen{
+    @apply h-10 w-10;
+}
+
+.titulo{
+    @apply text-2xl text-gray-900 font-bold uppercase;
+}
+
+.superior{
+    @apply bg-white h-xl flex justify-between shadow text-gray-700 relative;
+}
+
+.perfil{
+    @apply flex items-center hover:bg-gray-300;
+}

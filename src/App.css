@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tarjeta{
+  @apply rounded-xl text-gray-700 text-xs mx-4 nm-flat-white m-4 overflow-hidden;
+}
+
+.boton{
+  @apply text-sm font-bold py-2 px-4 rounded-lg bg-gradient-to-t
+   from-gray-500 to-gray-700
+   text-white hover:bg-gradient-to-t hover:from-gray-700 hover:to-gray-500
+   shadow-sm;
+}
+
+.boton--azul{
+  @apply bg-blue-500 text-white font-bold px-4 py-2 rounded-lg  hover:bg-blue-600 transition shadow-sm;
+}
+
+.boton--blanco{
+  @apply text-sm font-bold py-2 px-4 rounded-lg bg-gradient-to-t
+   from-white to-white text-black
+    hover:bg-gradient-to-t hover:from-white hover:to-gray-500
+   shadow-sm;
+}
+
+.label{
+  @apply block uppercase text-xs font-bold mb-6 text-left;
+}
+
+.input{
+  @apply nm-inset-gray-100 w-full border rounded-xl h-7 px-4;
+}
+
+.progress--back{
+  @apply w-full bg-gray-200 rounded-full h-2 shadow-inner nm-convex-gray-100 ;
+}
+
+.progress--bar{
+  @apply h-full bg-blue-500 rounded-full transition-all duration-300;
+}

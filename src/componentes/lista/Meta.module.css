@@ -1,0 +1,11 @@
+.meta{
+    @apply flex p-2 justify-between;
+}
+
+.icono{
+    @apply h-10 w-12 rounded-full nm-inset-gray-100 flex items-center justify-center text-xl;
+}
+
+.frecuencia{
+    @apply ml-5 flex-col items-start;
+}
